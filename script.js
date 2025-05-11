@@ -46,7 +46,6 @@ fetch("https://rickandmortyapi.com/api/character")
             card.classList.add("rounded");
             card.classList.add("shadow");
             card.classList.add("p-3");
-            card.classList.add("col-3");
             card.classList.add("border");
             card.classList.add("border-dark-subtle");
         

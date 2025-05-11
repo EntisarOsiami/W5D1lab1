@@ -8,6 +8,7 @@ container.classList.add("justify-content-center");
 container.classList.add("align-items-center");
 container.classList.add("gap-3");
 container.classList.add("mt-5");
+
 console.log(container);
 
 let card = document.createElement("div");
@@ -37,15 +38,17 @@ fetch("https://rickandmortyapi.com/api/character")
             cardImg.classList.add("img-fluid");
             cardImg.classList.add("rounded");
             cardImg.classList.add("mb-3");
-            cardImg.classList.add("w-100");
-            cardImg.classList.add("h-75");
+            cardName.classList.add("text-center");
+            cardName.classList.add("text-dark");
+            cardName.classList.add("mt-2");                       
             card.classList.add("text-center");
             card.classList.add("bg-light");
             card.classList.add("rounded");
             card.classList.add("shadow");
             card.classList.add("p-3");
-            card.classList.add("m-2");
             card.classList.add("col-3");
+            card.classList.add("border");
+            card.classList.add("border-dark-subtle");
         
             card.appendChild(cardName);
             card.appendChild(cardImg);
